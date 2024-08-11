@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .rotate-image {
+            animation: rotate 3s linear infinite;
+            height: 30%;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="rotate-image" src="images/ffy.jpg" alt="Rotating Image">
+</body>
+</html>
